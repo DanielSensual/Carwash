@@ -128,7 +128,7 @@ export const packages = [
 ] as const;
 
 export const galleryItems = [
-    { id: 1, category: 'Exterior', title: 'Black BMW Paint Correction', image: '/images/hero.png' },
+    { id: 1, category: 'Exterior', title: 'Porsche 911 Paint Correction', image: '/images/hero.png' },
     { id: 2, category: 'Before/After', title: 'Full Detail Transformation', image: '/images/before-after.png' },
     { id: 3, category: 'Interior', title: 'Luxury Interior Detail', image: '/images/interior.png' },
     { id: 4, category: 'Ceramic', title: 'Ceramic Coating Application', image: '/images/hero.png' },
@@ -137,9 +137,9 @@ export const galleryItems = [
 export const testimonials = [
     {
         name: 'Marcus T.',
-        vehicle: '2023 BMW M4',
+        vehicle: '2023 Porsche 911 GT3',
         rating: 5,
-        quote: 'Absolutely blown away by the results. My M4 looks better than when I picked it up from the dealer. The ceramic coating is incredible — water just beads right off. Worth every penny.',
+        quote: 'Absolutely blown away by the results. My 911 looks better than when I picked it up from the dealer. The ceramic coating is incredible — water just beads right off. Worth every penny.',
         image: '/images/hero.png',
     },
     {
