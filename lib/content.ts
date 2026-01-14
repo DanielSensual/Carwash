@@ -131,7 +131,7 @@ export const galleryItems = [
     { id: 1, category: 'Exterior', title: 'Porsche 911 Paint Correction', image: '/images/hero.png' },
     { id: 2, category: 'Before/After', title: 'Full Detail Transformation', image: '/images/before-after.png' },
     { id: 3, category: 'Interior', title: 'Luxury Interior Detail', image: '/images/interior.png' },
-    { id: 4, category: 'Ceramic', title: 'Ceramic Coating Application', image: '/images/hero.png' },
+    { id: 4, category: 'Ceramic', title: 'Ferrari F8 Ceramic Coating', image: '/images/ferrari.png' },
 ] as const;
 
 export const testimonials = [
