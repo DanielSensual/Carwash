@@ -1,18 +1,20 @@
-import Image from 'next/image';
 import { heroContent } from '@/lib/content';
 
 export default function Hero() {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-            {/* Background Image */}
+            {/* Background Video */}
             <div className="absolute inset-0">
-                <Image
-                    src="/images/hero.png"
-                    alt="Premium detailed car"
-                    fill
-                    className="object-cover"
-                    priority
-                />
+                <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    poster="/images/hero.png"
+                    className="absolute inset-0 w-full h-full object-cover"
+                >
+                    <source src="/videos/hero.mp4" type="video/mp4" />
+                </video>
                 {/* Overlay gradients */}
                 <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/50" />
